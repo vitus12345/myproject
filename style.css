@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: "DM Sans";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.navtop4{
+    color: #1E0E62 !important ;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.navselect{
+    width: 100%;
+}
+
+.navsite4 a{
+    margin-top: 15px;
+    
+    color: rgb(190, 188, 185) !important;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+
+.navhead4{
+    flex-direction: column !important;
+}
+
+.startup3 a{
+    color: #1E0E62 !important;
+    font-size: 50px !important;
+}
+
+/* styling the hero section */
+
+.hero-writeup{
+    display: flex;
+
+}
+
+.hero-writeup img{
+    margin-top: 120px;
+    margin-left: -80px;
+}
+
+.hero-writeup h2{
+    color: #1E0E62;
+    font-size:45px;
+    box-sizing: border-box;
+    font-weight: 700;
+    
+    
+}
+
+.hero-writeup p {
+    color:  rgb(190, 188, 185) ;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.hero-btn{
+    background: #482BE7 ;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+.hero-writeup img{
+       display: none;
+}
+
+
+
+.hero-btn{
+    margin-bottom: 20px;
+    width: 100%;
+}
+br{
+    display: none;
+}
+.navbar-toggler{
+    margin-left: 110px;
+}
+
+}
+
+
+
+/* starting the second project */
+
+
+
+.index2{
+    background: #2F1893;
+}
+
+.navhead2{
+    padding-top: 30px !important;
+}
+
+.startup2 a{
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navselect2 a{
+    color: #fff !important;
+    
+}
+#navbarNav{
+    /* margin-left: 40%; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* styling the project 2 hero section */
+
+.hero-sec2{
+    color: #fff;
+    padding-top: 40px;
+}
+
+.hero-writeup2 h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-writeup2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(172, 177, 182);
+    margin-top: 20px;
+}
+
+.hero2-btn1{
+    background: #25DAC5;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.hero2-btn p{
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: rgb(172, 177, 182);
+    margin-top: 10px;
+}
+
+
+.saltyp img{
+ width: 100%;
+ margin-top: 40px;
+ margin-bottom: 20%;
+}
+
+.mediapic{
+    position: relative;
+}
+
+
+.paly{
+    position: absolute;
+    bottom: 56%;
+    left: 47%;
+}
+
+.paly img{
+    width: 70%;
+}
+
+
+@media screen and (max-width: 992px){
+    .paly{
+        bottom: 44%;
+
+    }
+
+    .paly img{
+        width: 40%;
+    }
+
+   
+
+   
+}
+
+
+@media screen and (max-width: 400px){
+    .navlist2{
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
+/* starting the fifth project */
+
+.index5{
+    background: #341d97;
+    background-attachment: fixed;
+}
+
+.navbar2{
+    margin-left: 72% !important;
+    margin-top: 50px !important;
+
+}
+
+.hero5 img{
+    width: 40% !important;
+    /* margin-top: 30%; */
+    margin-left: 20%;
+}
+
+.hero-writeup5{
+    color: #fff;
+    /* margin-top: 17%; */
+    
+}
+
+.hero-writeup5 h3{
+    /* font-size: 20px; */
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-writeup5 h1{
+    font-size: 72px;
+    font-weight: 700;
+    /* margin-bottom: 30px; */
+}
+
+.hero-writeup5 p{
+    font-size: 19px;
+    font-weight: 400;
+    /* margin-bottom: 30px; */
+}
+.hero2-btn1{
+    background: #25DAC5;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+
+@media screen and (max-width: 992px){
+
+    .hero-writeup5 h3{
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .hero-writeup5 h1{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .hero-writeup5 p{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }   
+
+    .navtopbnt{
+        margin-left: 70% !important;
+    
+    }
+
+    .navbar-toggler-icon{
+        color: #fff !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .hero2-btn1 {
+        width: 100%;
+    }
+
+    .hero-writeup5 {
+        padding: 0 0 30px 0;
+    }
+
+    .hero-writeup5 h3 {
+        margin: 20px 0 0;
+    }
+    
+    .fa-bars{
+        margin-left: 85%;
+    }
+
+
+}
+
+@media screen and (min-width: 1800px) {
+    .ima {
+        margin: 5% auto;
+    }
+
+    .hero-writeup5 {
+        margin: 10% auto;
+    }
+}
+
+
+
+
+/* styling the project one */
+
+.index1{
+    background-image: url(/assets/Image.png);
+    background-color: #2F1893;
+    padding: 2rem 0 2rem 2rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.navbar1 h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.navbar1 li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.navbar1{
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h2 {
+    color: #fff;
+}
+
+.navbar1 ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn button{
+    border: none;
+    outline: none;
+    background-color: #25DAC5;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 14px;
+    margin-right: 70px;
+
+
+}
+.suits h1{
+    color: #fff;
+    font-size: 45px;
+    margin-top: 4rem;
+    margin-bottom: 20px;
+}
+.suits p{
+    color: #fff;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 1rem;
+}
+
+.friendly{
+    display: flex;
+    gap: 50px;
+    margin-top: 5.3rem;
+}
+.friendly h4{
+    color: #fff;
+    line-height: 13px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 18px;
+    
+}
+.friendly p{
+    color: #fff;
+    line-height: 22px;
+}
+
+.main-section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bee img{
+    margin-top: 2.5rem;
+    width: 490px;
+
+}
+
+.ham1{
+    display: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar1 ul{
+        display: none;
+    }
+
+    .navbar1{
+        gap: 0;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .ham1{
+        display: block;
+    }
+    
+    .bee img{
+       width: 100%;
+    }
+    .main-section1{
+        flex-direction: column;
+    }
+    .bee{
+        width: 100%;
+    }
+    .btn button{
+        margin-right: 0;
+        display: none;
+    }
+
+    .ham1{
+        margin-right: 40px;
+    }
+
+   
+    
+}
+
+
+
+
+
+/* styling project 3 */
+
+
+
+
+.index3{
+    background:url(./assets/startup3\ img.png) no-repeat center center /cover;
+    background-color: #2F1893;
+    padding: 1rem 1rem 1rem 10rem;
+    background-attachment: fixed;
+    /* height: 620px; */
+}
+
+.navbar3 h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.navbar3 li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.navbar3{
+    display: flex;
+    width: 100%;
+    /* gap: 30rem; */
+    margin-bottom: 5rem;
+    justify-content: space-between;
+}
+
+.navbar3 ul{
+    display: flex;
+}
+
+.bx-menu{
+    display: none !important;
+}
+
+.btn3 button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #482be7;
+    padding: 5px 10px;
+    border-radius: 14px;
+    margin-right: 70px;
+}
+
+.top3{
+    color: #fff;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 5rem;
+}
+
+.start3{
+    color: #fff;
+    background-color: #fff;
+}
+
+
+.shake3{
+    color: #fff;
+}
+
+.breakit3{
+    color: #fff;
+}
+
+.bees3{
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem
+}
+
+.getmore3{
+outline: 20px;
+border: none;
+}
+
+.getmore3 button{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #482be7;
+
+}
+
+.moreget3{
+    outline: none;
+}
+
+.moreget3 button{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #a6aad4;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 660px){
+    
+    body{
+        padding: 20px;
+        overflow-x: hidden;
+    }
+
+    .Start3 p{
+        font-size: 17px;
+    }
+
+    /* br{
+        display: none;
+    } */
+
+    .navbar3 .mylist3{
+        display: none;
+    }
+    
+    .bx-menu{
+       display: block !important;
+       margin-top: 10px;
+    }
+
+    .top3{
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .shake3, .breakit3{
+        font-size: 40px;
+    }
+
+    .index3{
+        padding: 15px;
+    }
+
+    .Start3 h1{
+        font-size: 30px;
+    }
+
+}
