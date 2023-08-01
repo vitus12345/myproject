@@ -18,9 +18,6 @@
 }
 
 
-.navselect{
-
-}
 
 .navsite4 a{
     margin-top: 15px;
@@ -31,14 +28,12 @@
     
 }
 
-.navhead4{
-    /* flex-direction: column !important; */
-}
 
-/* .startup3 a{
+.navhead4 .startup4{
     color: #1E0E62 !important;
-    font-size: 50px !important;
-} */
+    font-size: 17px !important;
+    font-weight: 700;
+}
 
 /* styling the hero section */
 
@@ -88,9 +83,9 @@
 }
 
 @media screen and (max-width: 365px){
-    .navhead4.navtop4{
-        font-weight: 300;
-        font-size: 10px;
+    .navhead4 .startup4{
+        font-weight: 400;
+        font-size: 15px;
     }
 }
 
