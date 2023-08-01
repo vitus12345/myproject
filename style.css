@@ -13,13 +13,13 @@
 
 .navtop4{
     color: #1E0E62 !important ;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 
 .navselect{
-    width: 100%;
+
 }
 
 .navsite4 a{
@@ -32,13 +32,13 @@
 }
 
 .navhead4{
-    flex-direction: column !important;
+    /* flex-direction: column !important; */
 }
 
-.startup3 a{
+/* .startup3 a{
     color: #1E0E62 !important;
     font-size: 50px !important;
-}
+} */
 
 /* styling the hero section */
 
@@ -62,7 +62,7 @@
 }
 
 .hero-writeup p {
-    color:  rgb(190, 188, 185) ;
+    color:  rgb(145, 143, 139) ;
     margin-top: 40px;
     margin-bottom: 80px;
     font-weight: 500;
@@ -79,6 +79,22 @@
     font-size: 15px;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 1000px){
+    .navhead4{
+        flex-direction: column !important;
+    }
+    
+}
+
+@media screen and (max-width: 365px){
+    .navhead4.navtop4{
+        font-weight: 300;
+        font-size: 10px;
+    }
+}
+
+
 
 
 
@@ -115,23 +131,30 @@ br{
 
 .navhead2{
     padding-top: 30px !important;
+    
 }
 
-.startup2 a{
+.navbar-toggler-icon{
+    background-color: #fff !important;
+    
+}
+
+.navhead2 .startup2{
     color: #fff !important;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .navselect2 a{
     color: #fff !important;
-    
+   
 }
-#navbarNav{
-    margin-left: 50%;
+
+/* #navbarNav{
+
     font-size: 16px;
     font-weight: 500;
-}
+} */
 
 /* styling the project 2 hero section */
 
@@ -156,12 +179,12 @@ br{
     background: #25DAC5;
     border: none;
     color: #fff;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border-radius: 30px;
 }
 
 .hero2-btn p{
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 400;
     margin-left: 20px;
     color: rgb(172, 177, 182);
@@ -191,10 +214,10 @@ br{
 }
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 545px){
     .paly{
-        bottom: 44%;
-
+        bottom: 48%;
+        left: 45%;
     }
 
     .paly img{
@@ -202,14 +225,31 @@ br{
     }
 
    
-
-   
 }
 
 
-@media screen and (max-width: 400px){
-    .navlist2{
-        margin-left: 20%;
+@media screen and (max-width: 365px){
+
+    .navhead2 .startup2{
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+
+
+@media screen and (max-width: 280px){
+    .paly img{
+        width: 25%;
+    }
+    .paly{
+        bottom: 45%;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .hero2-btn p{
+        text-align: center;
     }
 }
 
@@ -219,8 +259,12 @@ br{
 
 /* starting the fifth project */
 
+ /* {
+} */
+
+
 .index5{
-    background: #341d97;
+    background: #1E0E62;
     background-attachment: fixed;
 }
 
