@@ -43,7 +43,6 @@
 }
 
 .hero-writeup img{
-    margin-top: 120px;
     margin-left: -80px;
 }
 
@@ -374,157 +373,107 @@ br{
 
 
 /* styling the project one */
-
 .index1{
-    background-image: url(/assets/Image.png);
-    background-color: #2F1893;
-    padding: 2rem 0 2rem 2rem;
+    background-image: url(./assets/Image.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
+    background-color: rgba(13, 0, 200, 0.772);
+    
+    
+}
+
+.nav-site1 .startup1{
+color: #fff !important;
+font-size: 20px;
+font-weight: 700;
 
 }
 
-.navbar1 h2{
-    font-weight: 900;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-
-}
-
-.navbar1 li{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
+.nav-link1 a{
+    color: #fff !important;
+    font-size: 15px;
     font-weight: 500;
-
 }
-
-.navbar1{
-    display: flex;
-    gap: 3rem;
-}
-
-
-
-.top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.top h2 {
+.bnt-top{
+    background-color: #25DAC5 !important;
     color: #fff;
-}
-
-.navbar1 ul{
-    display: flex;
-    gap: 2rem;
-}
-
-.btn button{
     border: none;
-    outline: none;
-    background-color: #25DAC5;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 14px;
-    margin-right: 70px;
-
-
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 11px;
 }
-.suits h1{
-    color: #fff;
-    font-size: 45px;
-    margin-top: 4rem;
-    margin-bottom: 20px;
-}
-.suits p{
-    color: #fff;
-    font-weight: 500;
-    line-height: 32px;
-    margin-bottom: 1rem;
+.bnt-top:hover{
+    background-color: #fff !important;
+    color: #482be7;
 }
 
-.friendly{
-    display: flex;
-    gap: 50px;
-    margin-top: 5.3rem;
-}
-.friendly h4{
+.hero-text1{
     color: #fff;
-    line-height: 13px;
+}
+
+.hero-text1 h1{
+    font-size: 50px;
     font-weight: 600;
-    margin-bottom: 1.5rem;
-    margin-top: 18px;
-    
-}
-.friendly p{
-    color: #fff;
-    line-height: 22px;
 }
 
-.main-section1{
+
+.hero1-text2{
     display: flex;
-    justify-content: space-between;
+    width: 80%;
+    
 }
 
-.bee img{
-    margin-top: 2.5rem;
-    width: 490px;
-
+.hero1-text2 p{
+    font-size: 12px;  
 }
 
-.ham1{
-    display: none;
-    color: #fff;
+.htm{
+    margin-left: 50px;
 }
 
+.macbok img{
+    margin-left: 160px;
+    width: 97%;   
+}
 
-@media screen and (max-width:600px) {
-    body{
-        padding: 1rem;
-        margin-top: 1rem;
+@media screen and (min-width: 1800px){
+    .macbok img{
+        margin-left: 285px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .macbok img{
+        margin-left: 63px;
+        margin-top: 20px;
+    }
+    .nav-site1 .startup1{
+        font-weight: 500;
+        font-size: 19px;
     }
 
-    .navbar1 ul{
+    br{
         display: none;
     }
-
-    .navbar1{
-        gap: 0;
-        justify-content: space-between;
-        color: #fff;
-        font-size: 25px;
-    }
-
-    .ham1{
-        display: block;
-    }
     
-    .bee img{
-       width: 100%;
-    }
-    .main-section1{
+    .hero1-text2{
         flex-direction: column;
-    }
-    .bee{
-        width: 100%;
-    }
-    .btn button{
-        margin-right: 0;
-        display: none;
+        /* text-align: center; */
+        /* margin-left: 30px; */
     }
 
-    .ham1{
-        margin-right: 40px;
+    .htm{
+        margin-left: 0 !important;
+        margin-top: 30px;
     }
-
-   
-    
 }
 
-
-
+@media screen and (max-width: 365px){
+    .nav-site1 .startup1{
+        font-size: 17px;
+    }
+}
 
 
 /* styling project 3 */
