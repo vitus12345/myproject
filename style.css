@@ -11,6 +11,43 @@
     margin: 0 !important;
 }
 
+.hero-page{
+    background: #482be7;
+}
+
+
+
+.top-nav1{
+    font-size: larger;
+    margin: 20px;
+    
+    
+
+
+}
+.top-nav1 li{
+    margin: 10px;
+    list-style: none;
+}
+.top-nav1 a{
+    text-decoration: none;
+    color:#fff ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 .navtop4{
     color: #1E0E62 !important ;
     font-weight: 600;
@@ -71,7 +108,7 @@
     padding: 10px 20px;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 @media screen and (min-width: 1000px){
@@ -98,6 +135,9 @@
        display: none;
 }
 
+.watch1 img{
+    width: 75%;
+}
 
 
 .hero-btn{
@@ -109,6 +149,9 @@ br{
 }
 .navbar-toggler{
     margin-left: 110px;
+}
+.hero-btn{
+    margin-bottom: 30px;
 }
 
 }
@@ -444,6 +487,12 @@ font-weight: 700;
 }
 
 @media screen and (max-width: 992px){
+
+    .index1{
+        background-size: cover;
+    }
+
+
     .macbok img{
         margin-left: 63px;
         margin-top: 20px;
@@ -479,151 +528,95 @@ font-weight: 700;
 /* styling project 3 */
 
 
-
-
 .index3{
-    background:url(./assets/startup3\ img.png) no-repeat center center /cover;
-    background-color: #2F1893;
-    padding: 1rem 1rem 1rem 10rem;
+    background-image: url(./assets/startup3\ img.png);
+    background-color: rgba(0, 0, 200, 0.7);
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
-    /* height: 620px; */
-}
-
-.navbar3 h2{
-    font-weight: 900;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    margin-top: 7px;
-}
-
-.navbar3 li{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
-    font-weight: 500;
-    margin: 15px;
-}
-
-.navbar3{
-    display: flex;
-    width: 100%;
-    /* gap: 30rem; */
-    margin-bottom: 5rem;
-    justify-content: space-between;
-}
-
-.navbar3 ul{
-    display: flex;
-}
-
-.bx-menu{
-    display: none !important;
-}
-
-.btn3 button{
-    border: none;
-    outline: none;
-    background-color: #fff;
-    color: #482be7;
-    padding: 5px 10px;
-    border-radius: 14px;
-    margin-right: 70px;
-}
-
-.top3{
-    color: #fff;
-    justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 5rem;
-}
-
-.start3{
-    color: #fff;
-    background-color: #fff;
-}
-
-
-.shake3{
-    color: #fff;
-}
-
-.breakit3{
-    color: #fff;
-}
-
-.bees3{
-    display: flex;
-    gap: 10px;
-    margin-top: 2rem
-}
-
-.getmore3{
-outline: 20px;
-border: none;
-}
-
-.getmore3 button{
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    color: #482be7;
-
-}
-
-.moreget3{
-    outline: none;
-}
-
-.moreget3 button{
-    background-color: transparent;
-    padding: 10px;
-    border: 1px solid #a6aad4;
-    border-radius: 10px;
-    color: #fff;
-}
-
-
-@media screen and (max-width: 660px){
-    
-    body{
-        padding: 20px;
-        overflow-x: hidden;
-    }
-
-    .Start3 p{
-        font-size: 17px;
-    }
-
-    /* br{
-        display: none;
-    } */
-
-    .navbar3 .mylist3{
-        display: none;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
     }
     
-    .bx-menu{
-       display: block !important;
-       margin-top: 10px;
+    .vodka{
+    color: #fff !important;
     }
-
-    .top3{
+    
+    .navwork a{
+        color: #fff !important;
+    }
+    
+    .btntop{
+        color: #08137a !important;
+        padding: 1px 20px !important;
+        border-radius: 30px !important;
+    }
+    
+    
+    
+    .road{
         display: flex;
-        /* flex-direction: column; */
     }
-
-    .shake3, .breakit3{
-        font-size: 40px;
+   
+    
+  
+    
+    .btn3{
+        border-radius: 50px !important;
+        padding: 7px 25px !important;
+        
     }
-
-    .index3{
-        padding: 15px;
+    
+    .great{
+        color: #08137a !important;
     }
-
-    .Start3 h1{
-        font-size: 30px;
+    
+    .great2{
+        margin-left: 20px;
     }
+    
+    .herotext{
+        margin-top: 50px;
+        color: #fff;
+    }
+    
+    .herotext h1{
+        margin-bottom: 20px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    
+    .herotext p{
+        margin-bottom: 30px;
+    }
+    
+    @media screen and (max-width: 992px) {
+     
+        /* .index3{
+            width: 100%;
+        } */
 
-}
+
+        .road{
+            flex-direction: column;
+        }
+    
+        .btn3{
+            width: 100%;
+            margin-top: 10px;
+        }
+    
+        .great2{
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+
+        br{
+            display: none;
+        }
+    }
+    
+        
+    
+   
