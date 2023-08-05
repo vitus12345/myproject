@@ -569,9 +569,10 @@ br{
     background-image: url(./assets/Image.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
     background-color: rgba(13, 0, 200, 0.772);
-    
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
     
 }
 
