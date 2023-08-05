@@ -348,6 +348,145 @@ br{
     border-radius: 30px;
 }
 
+/* styling the second section of index5 */
+.easy h5{
+    font-size: 13px;
+    color: #1E0E62;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.easy p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(124, 118, 118);
+}
+
+.Variety h5{
+    font-size: 13px;
+    color: #1E0E62;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 187, 187);
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(190, 187, 187);
+    
+}
+
+.feel h5{
+    font-size: 13px;
+    color: #1E0E62;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feel img{
+    margin-top: -3px;
+}
+
+.have h6{
+    color: rgb(124, 118, 118);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.have p{
+    color: #1E0E62;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.have-btn{
+    background-color:#1E0E62;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 3px 7px;
+}
+
+.clients{
+    color: #fff;
+    text-align: center;
+}
+.clients h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.clients p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(193, 185, 185);
+}
+
+
+
+.Fox img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 50px 60px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 25px; 
+}
+.google img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 50px 50px;
+    margin-left: 20px;
+    border-radius: 3px;
+   margin-top: 25px; 
+}
+.walmart img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 50px 37px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 25px; 
+}
+.adidad img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 37px 60px;
+    border-radius: 3px;
+    margin-left: 20px; 
+    margin-top: 25px;  
+}
+
+.pizza img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 37px 70px;
+    border-radius: 3px;
+    margin-left: 20px; 
+    margin-top: 25px; 
+    
+}
+
+.philips img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 66px 40px;
+    border-radius: 3px;
+    margin-left: 20px; 
+    margin-top: 25px;  
+}
+
+.cnn img{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 55px 75px;
+    border-radius: 3px;
+    margin-left: 20px; 
+    margin-top: 25px;  
+}
+
+.beans{
+    border: 1px solid rgb(90, 88, 88);
+    padding: 37px 27px;
+    border-radius: 3px;
+    margin-left: 20px; 
+    margin-top: 25px;  
+}
+
 
 
 @media screen and (max-width: 992px){
@@ -398,6 +537,16 @@ br{
     .fa-bars{
         margin-left: 85%;
     }
+
+    .have h6{
+        margin-bottom: 20px;
+    }
+
+    .have-btn{
+        margin: 20px 0;
+    }
+
+    
 
 
 }
