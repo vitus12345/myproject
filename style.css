@@ -635,7 +635,17 @@ font-weight: 700;
     }
 }
 
-@media screen and (max-width: 992px){
+
+@media screen and (min-width: 530px) and (max-width: 920px){
+    .macbok img{
+        margin-left:60px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px){
 
     .index1{
         background-size: cover;
@@ -643,7 +653,7 @@ font-weight: 700;
 
 
     .macbok img{
-        margin-left: 63px;
+        margin-left: 39px;
         margin-top: 20px;
     }
     .nav-site1 .startup1{
