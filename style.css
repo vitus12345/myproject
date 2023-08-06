@@ -388,7 +388,7 @@ br{
 
 .have h6{
     color: rgb(124, 118, 118);
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -396,7 +396,7 @@ br{
 .have p{
     color: #1E0E62;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .have-btn{
@@ -405,7 +405,7 @@ br{
     border-radius: 20px;
     outline: none;
     border: none;
-    padding: 3px 7px;
+    padding: 5px 15px;
 }
 
 .clients{
@@ -441,14 +441,14 @@ br{
 }
 .walmart img{
     border: 1px solid rgb(90, 88, 88);
-    padding: 50px 37px;
+    padding: 50px 28px;
     border-radius: 3px;
     margin-left: 20px;
     margin-top: 25px; 
 }
 .adidad img{
     border: 1px solid rgb(90, 88, 88);
-    padding: 37px 60px;
+    padding: 37px 54px;
     border-radius: 3px;
     margin-left: 20px; 
     margin-top: 25px;  
@@ -473,15 +473,15 @@ br{
 
 .cnn img{
     border: 1px solid rgb(90, 88, 88);
-    padding: 55px 75px;
+    padding: 55px 65px;
     border-radius: 3px;
     margin-left: 20px; 
     margin-top: 25px;  
 }
 
-.beans{
+.beans img{
     border: 1px solid rgb(90, 88, 88);
-    padding: 37px 27px;
+    padding: 57px 20px;
     border-radius: 3px;
     margin-left: 20px; 
     margin-top: 25px;  
@@ -544,7 +544,42 @@ br{
 
     .have-btn{
         margin: 20px 0;
+        width: 100%;
+        padding: 10px 0;
     }
+    .google img{
+       padding: 50px 69px;
+       margin-left: 1px;  
+    }
+    .walmart img{
+        padding: 50px 45px;
+        margin-left: 1px;
+    }
+    .Fox img{
+        padding: 50px 85px;
+        margin-left: 1px;
+    }
+    .adidad img{
+        margin-left: 1px;
+        padding: 50px 85px;
+    }
+    .pizza img{
+        margin-left: 1px;
+        padding: 50px 97px;
+    }
+    .philips img{
+        margin-left: 1px;
+        padding: 60px 61px;
+    }
+    .cnn img{
+        margin-left: 1px;
+        padding: 50px 83px;
+    }
+    .beans img{
+        margin-left: 1px;
+        padding: 50px 51px;
+    }
+  
 
     
 
@@ -559,6 +594,36 @@ br{
     .hero-writeup5 {
         margin: 10% auto;
     }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1100px){
+    .Fox img{
+        padding: 50px 30px;
+    }
+    .google img{
+        padding: 50px 20px; 
+    }
+    .walmart img{
+        padding: 50px 16px;
+    }
+    .adidad img{
+        padding: 37px 30px;
+    }
+    .pizza img{
+        padding: 37px 39px; 
+    }
+    .philips img{
+        padding: 66px 10px;
+    }
+    .cnn img{
+        padding: 55px 50px;
+    }
+    .beans img{
+        padding: 55px 10px;
+        
+    }
+
+
 }
 
 
