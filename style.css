@@ -349,42 +349,46 @@ br{
 }
 
 /* styling the second section of index5 */
-.easy h5{
-    font-size: 13px;
-    color: #1E0E62;
-    font-weight: 700;
-    text-transform: uppercase;
+.easy-to-use{
+    background: #fff;
 }
-.easy p{
-    font-size: 13px;
-    font-weight: 500;
-    color: rgb(124, 118, 118);
-}
-
-.Variety h5{
-    font-size: 13px;
-    color: #1E0E62;
-    font-weight: 700;
+.acco-btn{
+    border: none !important;
+    outline: none !important;
+    color: #1E0E62 !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
     text-transform: uppercase;
-    margin-top: 30px;
-    border-top: 1px solid rgb(190, 187, 187);
-    padding: 20px 0;
-    border-bottom: 1px solid rgb(190, 187, 187);
+    outline: none;
     
 }
 
-.feel h5{
-    font-size: 13px;
-    color: #1E0E62;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.vitis{
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    outline: none !important;
+    
+
+    
+}
+.vitis2{
+    border-left: none !important;
+    border-right: none !important;
+}
+.vitis3{
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
 }
 
-.feel img{
-    margin-top: -3px;
+.acco-btn-body{
+    font-size: 13px ;
+    font-weight: 500 ;
+    color: rgb(157, 151, 151);
+
 }
+
 
 .have h6{
     color: rgb(124, 118, 118);
@@ -717,8 +721,8 @@ br{
     background-attachment: fixed;
     background-color: rgba(13, 0, 200, 0.772);
     background-size: cover;
-    background-size: 100%;
-    height: 100%;
+    /* background-size: 100%; */
+    /* height: 100%; */
     
 }
 
@@ -787,6 +791,9 @@ font-weight: 700;
     .macbok img{
         margin-left:60px;
     }
+    .bnt-top{
+        width: 100%;
+    }
 }
 
 
@@ -822,11 +829,20 @@ font-weight: 700;
         margin-left: 0 !important;
         margin-top: 30px;
     }
+
+    .bnt-top{
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 365px){
     .nav-site1 .startup1{
         font-size: 17px;
+    }
+
+    .bnt-top{
+        width: 100%;
     }
 }
 
